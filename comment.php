@@ -107,7 +107,7 @@ $avgRating = $db->averageRating($_REQUEST['product_id']);
                 <div class="input-group">
                     <label for="text">Comment</label>
                 </div>
-                <div class="input-group">
+                <div class="form-group">
                     <textarea class="form-control" id="text" name="text"></textarea>
                 </div>
                 <div class="form-group">
@@ -130,7 +130,7 @@ $avgRating = $db->averageRating($_REQUEST['product_id']);
 </html>
 
 <?php
-    $message_error = '';
+    $message_error = ''; //message error
     $message_ok = '';
     $error = false;
     if(isset($_POST['add_name'])) {
