@@ -7,7 +7,7 @@ include "Db.php";
 
 $db = Db::getInstance();
 
-$products = $db->getAllProducts();
+$products = $db->getAllProducts(); //
 
 ?>
 
