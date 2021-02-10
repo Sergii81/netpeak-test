@@ -130,7 +130,7 @@ $avgRating = $db->averageRating($_REQUEST['product_id']);
 </html>
 
 <?php
-    $message_error = '';
+    $message_error = ''; //
     $message_ok = '';
     $error = false;
     if(isset($_POST['add_name'])) {
